@@ -75,7 +75,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 1px solid transparent;
 
     @media screen and (max-width: 960px){
         margin-left: -50px;
@@ -98,7 +98,7 @@ export const NavLinks = styled(Link)`
 
     &:hover{
         color: #4b59f7;
-        transition: .5s ease;
+        transition: all .5s ease;
     }
 
     @media screen and (max-width: 960px){
