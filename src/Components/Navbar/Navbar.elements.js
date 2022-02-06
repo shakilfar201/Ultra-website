@@ -78,7 +78,7 @@ export const NavItem = styled.li`
     border-bottom: 1px solid transparent;
 
     @media screen and (max-width: 960px){
-        margin-left: -50px;
+        /* margin-left: -50px; */
 
         &:hover{
             border: none;
@@ -104,7 +104,7 @@ export const NavLinks = styled(Link)`
     @media screen and (max-width: 960px){
         text-align: center;
         padding: 2rem;
-        /* width: 100%; */
+        width: 100%;
         display: table;
 
         &:hover{
@@ -121,7 +121,7 @@ export const NavItemBtn = styled.li`
         align-items: center;
         width: 100%;
         height: 120px;
-        margin-left: -80px;
+        /* margin-left: -80px; */
     }
 `;
 
